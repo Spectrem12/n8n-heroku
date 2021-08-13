@@ -39,7 +39,11 @@
       "NODE_TLS_REJECT_UNAUTHORIZED": {
         "description": "Because Heroku SSL is self signed, SSL fails if this is not set to 0",
         "value": 0
-      }
+      },
+        "WEBHOOK_TUNNEL_URL": {
+            "description": "This provides n8n with the redirect URL for oauth of 3rd party apps",
+            "value": "https://jcred-n8n.herokuapp.com/"
+        }
     },
     "formation": {
       "web": {
